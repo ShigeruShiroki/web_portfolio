@@ -1,0 +1,188 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+section,article,aside,hgroup,header,footer,main,nav,figure{
+  display:block;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul,ol{
+  list-style-type: none;
+}
+
+body{
+  font-size: 18pt;
+  font-family:YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "serif";
+  background-image: url(../../images/main_bg.png);
+}
+
+#mainVisual{
+  position: relative;
+  width: 1160px;
+  margin-top: 255px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 160px;
+}
+
+#blueLine{
+  position:absolute;
+  background-color: #d7fafd;
+  width: 350px;
+  height: 3884px;
+  top:-255px;
+  left: 250px;
+  opacity: 0.5;
+}
+
+nav{
+  position: absolute;
+  background-color: #63956a;
+  width: 100%;
+  height: 250px;
+  top: 120px;
+  opacity: 0.4;
+  z-index: 1;
+}
+
+nav ul{
+  margin-top:115px;
+  margin-left: 65%;
+}
+#about_gn{
+  float:left;
+}
+
+#works_gn{
+  float:left;
+  padding-left:34px;
+}
+
+#about{
+  background-color: #63956a;
+  width: 100%;
+  height:400px;
+  opacity: 0.4;
+}
+
+#aboutContents{
+  float:left;
+}
+
+#aboutTitle img{
+  margin-left: 355px;
+  margin-top: 43px;
+}
+
+#face{
+  width: 240px;
+  height: 325px;
+  margin-left: 305px;
+}
+
+#aboutSentence{
+  margin-left: 600px;
+  padding-top: 115px;
+  color:white;
+}
+
+#nameJa{
+  font-size: 24pt;
+  font-weight: 500;
+}
+
+#nameEn{
+  font-size: 14pt;
+  font-weight: 500;
+  margin-top: -10px;
+}
+
+#aboutText{
+  line-height: 24pt;
+  margin-top: 40px;
+}
+
+
+#works{
+ position: relative;
+ width: 100%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+#worksTitle{
+  padding-top: 43px;
+  margin-left: 356px;
+}
+
+#worksWeb{
+  margin-top: 76px;
+  margin-left: 395px;
+}
+
+#web{
+  width: 1160px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#evergreenCollege{
+  float:left;
+}
+
+#restaurant{
+  float:right;
+}
+
+#textileTitle{
+  padding-top: 76px;
+  margin-left: 350px;
+  clear: both;
+}
+
+#textile ul{
+  width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer{
+ width: 100%;
+ height: 50px;
+ margin-top: 96px;
+ background-color: #63956a;
+ opacity: 0.4;
+}
+
+footer ul{
+ width: 1160px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+footer li:nth-child(1){
+ float:left
+}
+footer li:nth-child(2){
+ float:left;
+ padding-left: 60px;
+}
+
+footer p{
+ font-size: 15px;
+ color: white;
+ padding-top: 12px;
+ float:right;
+}
